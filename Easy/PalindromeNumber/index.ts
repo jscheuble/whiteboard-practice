@@ -24,3 +24,12 @@ function isPalindrome(x: number): boolean {
     return true;
 
 };
+
+function isPalindrome2(x: number): boolean {
+    let y: string = x.toString().split('').reverse().join('');
+    if (parseInt(y) === x) {
+        return true;
+    } else {
+        return false;
+    }
+};
