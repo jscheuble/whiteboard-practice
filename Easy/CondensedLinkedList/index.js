@@ -13,6 +13,10 @@ Explanation: The input list contains redundant nodes (3), (6), and (2), so those
 //   this.next = null;
 // }
 //
+
+// Runtime complexity; O(n) linear
+// space complexity: O(n) linear
+
 function condense_linked_list(node) {
     let head = node;
     let current = node;
