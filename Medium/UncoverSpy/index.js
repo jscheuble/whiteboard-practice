@@ -26,6 +26,9 @@ Explanation: Person 1 trusts Person 3, and Person 2 trusts Person 3, but Person 
 
 // brute force solution
 
+// time complexity: O(n log n)
+// space complexity: O(n log n)
+
 function uncover_spy(n, trust) {
     let spy = [];
     let ppl = new Set();
