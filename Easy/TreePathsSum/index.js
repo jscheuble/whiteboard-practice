@@ -21,6 +21,9 @@ The expected output given the above tree is 5 + 4 + 8 + 11 + 13 + 4 + 7 + 2 + 1,
 //   this.right = null;
 // }
 
+// time complexity: O(n) linear
+// space complexity: O(n) linear
+
 function tree_paths_sum(root) {
     let sum = 0;
     let queue = [];
